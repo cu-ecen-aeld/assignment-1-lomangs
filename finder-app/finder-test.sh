@@ -58,7 +58,8 @@ do
 done
 
 OUTPUTSTRING=$(./finder.sh "$WRITEDIR" "$WRITESTR")
-
+echo "output string: $OUTPUTSTRING"
+echo "match string: $MATCHSTR"
 # remove temporary directories
 rm -rf /tmp/aeld-data
 
